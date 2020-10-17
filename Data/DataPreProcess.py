@@ -32,8 +32,8 @@ print("5")
 acc_df['a-z']=acc_df.apply(lambda x:x[2]/max(acc_df['a-z']),axis=1)
 print("6")
 
-# pos_df=pd.read_csv('positions.csv').drop('pos_id',1)
-# pos_df['timestamp'] = pd.to_datetime(pos_df['timestamp'])
+pos_df=pd.read_csv('positions.csv').drop('pos_id',1)
+pos_df['timestamp'] = pd.to_datetime(pos_df['timestamp'])
 
 def clear(a,g):
     a=a.set_index("timestamp").drop("trip_id",axis=1)
