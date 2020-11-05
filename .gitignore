@@ -1,10 +1,15 @@
-distance_ALL.txt
-temp_event.txt
+approach1-classification/distance_ALL.txt
+approach1-classification/temp_event.txt
 temp_event_new.txt
-temp_event_new_005.txt
-temp_event_new_025.txt
-temp_event_new_01.txt 
-temp_event_new_01v05.txt
-temp_event_new_01v15.txt
+temp_event_new_0050.txt
+temp_event_new_0075.txt
+temp_event_new_0100.txt
+temp_event_new_0125.txt
+temp_event_new_0150.txt
+temp_event_new_0175.txt
+temp_event_new_0200.txt
+temp_event_new_0225.txt
+temp_event_new_0250.txt
+
 
 
